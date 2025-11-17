@@ -47,3 +47,8 @@ body, body * {
 .navbar .nav-item > a {
   color: #ffffff !important;
 }
+
+/* 5. Make the site title (my name in navbar) white */
+.navbar-brand {
+  color: #ffffff !important;
+}
