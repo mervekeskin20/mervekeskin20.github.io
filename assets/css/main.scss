@@ -60,3 +60,19 @@ body, body * {
 .navbar .ms-md-auto {
   display: none !important;
 }
+
+/* Hide the entire right-side navbar group (search + color mode) */
+.navbar-collapse .navbar-nav:last-child {
+  display: none !important;
+}
+
+/* Hide color mode toggle specifically (just in case) */
+.color-mode__btn,
+.navbar .color-mode__btn {
+  display: none !important;
+}
+
+/* Make the site title (your name in the navbar) not bold */
+.navbar-brand {
+  font-weight: 400 !important;
+}
