@@ -9,7 +9,7 @@ nav_order: 6
 
 My teaching interests focus on international relations, intrastate conflict, conflict resolution and peacemaking, international security, international law, quantitative methods, computational social science, and text analysis.
 							
-Instructor of Record
+<b>Instructor of Record<b>
 
 Visualizing and Understanding Social Data, University of Pittsburgh, <em>Spring 2025<em>
 
@@ -20,20 +20,20 @@ International Law, University of Pittsburgh,  <em>Summer 2023<em>
 International Relations, University of Pittsburgh,  <em>Summer 2022<em>
 							
 
-Guest Lecturer	
+<b>Guest Lecturer	<b>
 
 Civil Wars, “Civilians in Civil Conflict”, University of Pittsburgh, <em>Fall 2023<em>
 
 Civil Wars, “Participation and Recruitment", University of Pittsburgh, <em>Fall 2021<em>
 							
 							
-Teaching Fellow	
+<b>Teaching Fellow	<b>
 
 International Relations, University of Pittsburgh, <em>Fall 2020<em>
 
 International Relations, University of Pittsburgh, <em>Spring 2021<em>
 
-Teaching Assistant
+<b>Teaching Assistant<b>
 
 Intro to International Relations, Koc University, <em>Summer 2018<em>
 
