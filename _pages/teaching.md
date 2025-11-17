@@ -14,26 +14,21 @@ My teaching interests focus on international relations, intrastate conflict, con
 
 Visualizing and Understanding Social Data, University of Pittsburgh, <em>Spring 2025<em>
 
-International Relations, University of Pittsburgh, <em>Summer 2024<em>
-
 International Law, University of Pittsburgh,  <em>Summer 2023<em>
 
-International Relations, University of Pittsburgh,  <em>Summer 2022<em>
-							
+International Relations, University of Pittsburgh, <em>Summer 2022, Summer 2024<em>
 
+							
 <b>Guest Lecturer<b>
 
-Civil Wars, “Civilians in Civil Conflict”, University of Pittsburgh, <em>Fall 2023<em>
+Civil Wars, ``Civilians in Civil Conflict”, University of Pittsburgh, <em>Fall 2023<em>
 
-Civil Wars, “Participation and Recruitment", University of Pittsburgh, <em>Fall 2021<em>
-							
+Civil Wars, ``Participation and Recruitment", University of Pittsburgh, <em>Fall 2021<em> 
+
 							
 <b>Teaching Fellow<b>
 
-International Relations, University of Pittsburgh, <em>Fall 2020<em>
-
-International Relations, University of Pittsburgh, <em>Spring 2021<em>
-
+International Relations, University of Pittsburgh, <em>Fall 2020, Spring 2021<em>
 
 <b>Teaching Assistant<b>
 
