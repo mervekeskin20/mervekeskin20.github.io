@@ -27,8 +27,21 @@ profile:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Postdoctoral Research Scholar at the School of Politics and Global Studies at Arizona State University.
+My research investigates peace and conflict, political violence, and human rights with a focus on three main areas: 
+1) the strategic decision-making of non-state armed groups, 
+2) the causes and impacts of local agreements between non-state armed groups and civilian communities in civil wars, and 
+3) the international dimensions of civil wars, including the role of sanctions and military interventions.
+My work employs a combination of machine learning, network analysis, prediction, text-as-data, large language models, and quantitative methods.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My book project, <em>Local Peace Agreements in Civil Wars: Legitimacy, Violence, and Conflict Trajectories</em>, examines why non-state armed groups and communities negotiate and sign local agreements during ongoing wars and how these settlements shape intrastate conflict dynamics. 
+Drawing on an original dynamic network dataset of local peace agreements in the Central African Republic, I develop a machine learning based prediction framework that demonstrate how these pacts recalibrate power balances, influence patterns of civilian victimization, and reshape interactions among armed actors. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I pursue related research on political economy of security and conflict. In collaboration with Timothy Peterson and Dursun Peksen, I am working on a project on international economic restrictions using large language models and machine learning. I also study how international interventions influence conflict processes and termination.
+
+I received my Ph.D. in Political Science from the University of Pittsburgh in 2025. Previously, I completed an M.A. in International Relations at Koç University and a B.A. in Political Science and International Relations at Boğaziçi University.
+
+Please contact me at mkeskin1@asu.edu.
+
+
+[Academicons](https://jpswalsh.github.io/academicons/)
