@@ -23,3 +23,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* ───── Remove bold from your name only ───── */
+/* al-folio renders your name inside .page__content h1:first-child */
+.page__content h1:first-child {
+  font-weight: 400 !important; /* normal weight */
+}
