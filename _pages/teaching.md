@@ -7,7 +7,8 @@ nav: true
 nav_order: 6
 ---
 
-My teaching interests focus on international relations, intrastate conflict, conflict resolution and peacemaking, international security, international law, quantitative methods, computational social science, and text analysis.
+My teaching interests focus on international relations, intrastate conflict, conflict resolution, peacemaking and peacekeeping, human rights, international security, international law, computational social science, quantitative text analysis, and the use of AI in political science.
+
 							
 <b>Instructor of Record<b>
 
