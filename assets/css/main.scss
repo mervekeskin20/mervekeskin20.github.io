@@ -35,3 +35,8 @@ body {
 h1 {
   font-weight: 400; // try 300 if you want lighter
 }
+
+/* 3. Force all text to be black */
+body, body * {
+  color: #000000 !important;
+}
