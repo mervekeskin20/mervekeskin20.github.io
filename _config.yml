@@ -48,10 +48,10 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -642,3 +642,7 @@ jsonresume:
   - languages
   - interests
   - references
+
+body {
+  background-color: #ffffff !important;
+}
