@@ -40,3 +40,10 @@ h1 {
 body, body * {
   color: #000000 !important;
 }
+
+/* 4. Make menu (navbar) text white */
+.navbar a,
+.navbar .navbar-nav .nav-link,
+.navbar .nav-item > a {
+  color: #ffffff !important;
+}
