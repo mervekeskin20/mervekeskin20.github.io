@@ -41,14 +41,22 @@ body, body * {
   color: #000000 !important;
 }
 
-/* 4. Make menu (navbar) text white */
-.navbar a,
-.navbar .navbar-nav .nav-link,
-.navbar .nav-item > a {
-  color: #ffffff !important;
+/* 4. Make navbar (top bar) background white */
+.navbar {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #e0e0e0; // thin separator line; remove if you don't want it
 }
 
-/* 5. Make the site title (my name in navbar) white */
+/* 5. Make navbar text (including your name in the top bar) black */
+.navbar a,
+.navbar .navbar-nav .nav-link,
+.navbar .nav-item > a,
 .navbar-brand {
-  color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* 6. Hide everything on the right side of the navbar (search, color toggle, etc.) */
+.navbar-nav.ms-md-auto,
+.navbar .ms-md-auto {
+  display: none !important;
 }
