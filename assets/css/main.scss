@@ -24,8 +24,14 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* ───── Remove bold from your name only ───── */
-/* al-folio renders your name inside .page__content h1:first-child */
-.page__content h1:first-child {
-  font-weight: 400 !important; /* normal weight */
+/* ───── Our overrides ───── */
+
+/* 1. Make the whole site background white */
+body {
+  background-color: #ffffff !important;
+}
+
+/* 2. Make H1 headings (including your name) not bold */
+h1 {
+  font-weight: 400; // try 300 if you want lighter
 }
