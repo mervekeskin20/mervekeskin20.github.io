@@ -11,32 +11,32 @@ My teaching interests focus on international relations, intrastate conflict, con
 							
 Instructor of Record
 
-<b>[Spring 2025]</b> Visualizing and Understanding Social Data, University of Pittsburgh</
+Visualizing and Understanding Social Data, University of Pittsburgh, <em>Spring 2025<em>
 
-<b>[Summer 2024]</b> International Relations, University of Pittsburgh</
+International Relations, University of Pittsburgh, <em>Summer 2024<em>
 
-<b>[Summer 2023]</b> International Law, University of Pittsburgh</
+International Law, University of Pittsburgh,  <em>Summer 2023<em>
 
-<b>[Summer 2022]</b> International Relations, University of Pittsburgh</
+International Relations, University of Pittsburgh,  <em>Summer 2022<em>
 							
 
 Guest Lecturer	
 
-<b>[Fall 2023]</b> Civil Wars, “Civilians in Civil Conflict”, University of Pittsburgh</
+Civil Wars, “Civilians in Civil Conflict”, University of Pittsburgh, <em>Fall 2023<em>
 
-<b>[Fall 2021]</b> Civil Wars, “Participation and Recruitment", University of Pittsburgh</
+Civil Wars, “Participation and Recruitment", University of Pittsburgh, <em>Fall 2021<em>
 							
 							
 Teaching Fellow	
 
-<b>[Fall 2020]</b> International Relations, University of Pittsburgh</
+International Relations, University of Pittsburgh, <em>Fall 2020<em>
 
-<b>[Spring 2021]</b> International Relations, University of Pittsburgh<
+International Relations, University of Pittsburgh, <em>Spring 2021<em>
 
 Teaching Assistant
 
-<b>[Summer 2018]</b> Intro to International Relations, Koc University</
+Intro to International Relations, Koc University, <em>Summer 2018<em>
 
-<b>[Spring 2018]</b> Terrorism, Insurgency, and World Politics, Koc University</
+Terrorism, Insurgency, and World Politics, Koc University, <em>Spring 2018<em>
 
-<b>[Spring 2017]</b> Intro to Turkish Politics, Bogazici University</
+Intro to Turkish Politics, Bogazici University, <em>Spring 2017<em>
