@@ -101,14 +101,14 @@ nav_order: 2
   </li>
 
   <li>
-    Mitigating Violence Locally: The Effects of Local Agreements on Violence in Civil Wars
-  </li>
-
-  <li>
-  Local Peace, Broader War? How Local Peace Agreements Shape Conflict Dynamics in Civil Wars
+  Who Should Be Included in Peace Negotiations? Public Opinion from Myanmar (with Monalisa Adhikari)
   </li>
 
   <li> 
- Peace or Retribution? The Role of Warfare on Public Opinion Toward Peace
+ Peace or Retribution? The Role of Warfare on Public Opinion Toward Peace in Colombia
+  </li>
+
+  <li>
+    Mitigating Violence Locally: The Effects of Local Agreements on Violence in Civil Wars
   </li>
 </ol>
