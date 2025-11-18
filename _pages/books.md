@@ -2,7 +2,7 @@
 layout: book-shelf
 title: Book Project
 permalink: /books/
-nav: true
+nav: false
 collection: Book Project
 ---
 
