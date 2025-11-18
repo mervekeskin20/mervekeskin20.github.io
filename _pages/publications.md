@@ -72,6 +72,7 @@ nav_order: 2
 
   <li>
     A Rebel with a Sanction: UN Sanctions against Non-state Armed Groups and Civil Conflict Duration (with Omer Zarpli)
+    <em>(Under Review)</em>
     <details>
       <summary>Read more</summary>
       <p>
