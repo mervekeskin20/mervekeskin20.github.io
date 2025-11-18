@@ -121,3 +121,15 @@ body:not(.home) .page-title,
 body:not(.home) .post-title {
   display: none !important;
 }
+
+/* Keep text from dropping below the photo on the About page */
+.about-photo-column {
+  min-width: 260px;   /* adjust based on your photo width */
+  max-width: 260px;
+}
+
+/* Make sure the row respects the fixed left column */
+.about-row {
+  display: flex;
+  align-items: flex-start;
+}
