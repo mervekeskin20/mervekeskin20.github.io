@@ -45,4 +45,4 @@ I co-organize the [Violence, Instability and Peace (VIP) Workshop](https://vip-w
 
 I received my Ph.D. in Political Science from the University of Pittsburgh in 2025. Previously, I completed an M.A. in International Relations at Koç University and a B.A. in Political Science and International Relations at Boğaziçi University.
 
-Please reach me at mkeskin1@asu.edu.
+Please reach me at mkeskin1 [at] asu [dot] edu.
