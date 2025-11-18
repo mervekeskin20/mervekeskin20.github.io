@@ -133,3 +133,18 @@ body:not(.home) .post-title {
   display: flex;
   align-items: flex-start;
 }
+
+.profile-social-icons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.profile-social-icons a {
+  margin: 0 6px;
+  font-size: 22px;
+  color: #003366 !important;
+}
+
+.profile-social-icons a:hover {
+  color: #001f4d !important;
+}
