@@ -642,7 +642,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-body {
-  background-color: #ffffff !important;
-}
