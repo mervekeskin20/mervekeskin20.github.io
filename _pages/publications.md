@@ -59,7 +59,7 @@ nav_order: 2
   </li>
 
   <li>
-    International Rival, Military Intervention, and Duration of Civil War (with Jungmin Han)
+    International Rivalry, Military Intervention, and Duration of Civil War (with Jungmin Han)
     <em>(Under Review)</em>
     <details>
       <summary>Read more</summary>
