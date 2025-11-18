@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: {{ site.max_width }};
+$max-content-width: 930px;
 
 @import
   "variables",
@@ -44,10 +44,10 @@ body, body * {
 /* 4. Make navbar (top bar) background white */
 .navbar {
   background-color: #ffffff !important;
-  border-bottom: 1px solid #e0e0e0; // thin separator line; remove if you don't want it
+  border-bottom: 1px solid #e0e0e0;
 }
 
-/* 5. Make navbar text (including your name in the top bar) black */
+/* 5. Make navbar text (including your name) black */
 .navbar a,
 .navbar .navbar-nav .nav-link,
 .navbar .nav-item > a,
@@ -61,8 +61,63 @@ body, body * {
   display: none !important;
 }
 
-/* Hide color mode toggle specifically (just in case) */
+/* Hide color mode toggle specifically */
 .color-mode__btn,
 .navbar .color-mode__btn {
+  display: none !important;
+}
+
+/* Hide the last item in the navbar (the ctrl+k search chip) */
+.navbar-nav .nav-item:last-child,
+.navbar-nav li:last-child {
+  display: none !important;
+}
+
+/* Make all links dark blue */
+a,
+a:link,
+a:visited {
+  color: #003366 !important;
+}
+
+/* Hover state for links */
+a:hover,
+a:focus {
+  color: #001f4d !important;
+}
+
+/* ───── Fix bold first name ("Merve") in navbar ───── */
+
+/* Remove bold from <strong>, <b>, and bold utility classes */
+.navbar-brand strong,
+.navbar-brand b,
+.navbar-brand .fw-bold,
+.navbar-brand .font-weight-bold,
+.navbar-brand span {
+  font-weight: 400 !important;
+}
+
+/* Hide the search toggle (⌘ k search button) */
+#search-toggle {
+  display: none !important;
+}
+
+#search-toggle * {
+  display: none !important;
+}
+
+/* Make first and last name in the page title the same weight */
+.post-title .font-weight-bold {
+  font-weight: 400 !important;   /* match the weight of "Keskin" */
+}
+
+/* Ensure the entire page title uses the same weight */
+.post-title {
+  font-weight: 400 !important;
+}
+
+/* Hide page titles on all pages except Home */
+body:not(.home) .page-title,
+body:not(.home) .post-title {
   display: none !important;
 }
