@@ -10,9 +10,9 @@ My teaching interests focus on international relations, intrastate conflict, con
 							
 <b>Instructor<b>
 
-Visualizing and Understanding Social Data, University of Pittsburgh, <em>Spring 2025<em>
+Visualizing and Understanding Social Data (Computational Social Science), University of Pittsburgh, <em>Spring 2025<em>
 
-International Law, University of Pittsburgh, <em>Summer 2023<em>
+International Law and Problems of World Order, University of Pittsburgh, <em>Summer 2023<em>
 
 International Relations, University of Pittsburgh, <em>Summer 2022, Summer 2024<em>
 							
