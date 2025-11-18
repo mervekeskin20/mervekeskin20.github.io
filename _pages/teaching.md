@@ -8,14 +8,13 @@ nav_order: 3
 
 My teaching interests focus on international relations, intrastate conflict, conflict resolution, peacemaking and peacekeeping, human rights, international security, international law, computational social science, quantitative text analysis, and the use of AI in political science.
 							
-<b>Instructor <b>
+<b>Instructor<b>
 
 Visualizing and Understanding Social Data, University of Pittsburgh, <em>Spring 2025<em>
 
 International Law, University of Pittsburgh,  <em>Summer 2023<em>
 
 International Relations, University of Pittsburgh, <em>Summer 2022, Summer 2024<em>
-
 							
 <b>Guest Lecturer<b>
 
