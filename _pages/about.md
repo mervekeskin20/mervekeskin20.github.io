@@ -2,23 +2,19 @@
 layout: about
 title: Home
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p></p>
-    <p></p>
-    <p></p>
-
-<div class="contact-box mt-3">
-  <div><strong>Email:</strong> <a href="mailto:mkeskin1@asu.edu">mervekeskin20@gmail.com</a></div>
-  <div><strong>GitHub:</strong> <a href="https://github.com/mervekeskin20" target="_blank">github.com/mervekeskin20</a></div>
-  <div><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=gW4KaysAAAAJ&hl=en" target="_blank">Google Scholar</a></div>
-  <div><strong>LinkedIn:</strong> <a href="www.linkedin.com/in/merve-keskin-94614190" target="_blank">LinkedIn</a></div>
-</div>
+    <div class="contact-box mt-3">
+      <p><strong>Email:</strong> <a href="mailto:mkeskin1@asu.edu">mkeskin1@asu.edu</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/mervekeskin20" target="_blank">github.com/mervekeskin20</a></p>
+      <p><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=gW4KaysAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/merve-keskin-94614190" target="_blank">LinkedIn</a></p>
+    </div>
 
 #selected_papers: true # includes a list of papers marked as "selected={true}"
 #social: true # includes social icons at the bottom of the page
