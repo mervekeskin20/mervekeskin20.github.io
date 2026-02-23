@@ -35,6 +35,18 @@ nav_order: 2
 
 <ol>
   <li>
+    International Rivalry, Military Intervention, and Duration of Civil War (with Jungmin Han)
+    <em>(R & R)</em>
+    <details>
+      <summary>Read more</summary>
+      <p>
+        <!-- Replace this text with whatever you want to show when expanded -->
+        “Civil wars often unfold amid complex networks of foreign involvement. Although prior research shows that two-sided interventions, where both governments and rebel groups receive external support, tend to prolong conflicts, it typically treats them as interactions between two unified camps, overlooking the distinct roles and linkages of individual intervening states. We argue that the structure of external competition, specifically, how intervening states are networked across opposing camps,  fundamentally shapes conflict duration. The analysis introduces the concept of a competitive intervener dyads (CID), defined as pairs of states supporting opposite sides in a civil war. As the number of these dyads increases, the density of cross-camp competition rises, complicating bargaining and reducing the likelihood of settlement. Moreover, when CIDs consist of interstate rivals, mutual mistrust and antagonism further undermine credible commitments and intensify informational asymmetries, making peace even less attainable. Using global data on civil wars from 1975 to 2017, combined with measures of external support and interstate rivalry, we estimate Cox proportional hazards models to test these propositions. The results show that a higher number of CIDs significantly decreases the tendency of civil war to terminate, and that rivalry dyads exert particularly strong prolonging effects. These findings highlight how the configuration of external actors, not merely their presence, profoundly shapes the trajectory of civil wars, bridging research on foreign intervention, bargaining dynamics, and international rivalry."
+      </p>
+    </details>
+  </li>
+  
+  <li>
     Forecasting Local Agreements in Civil War: A Machine Learning Perspective
     <em>(Under Review)</em>
     <details>
@@ -54,18 +66,6 @@ nav_order: 2
       <p>
         <!-- Replace this text with whatever you want to show when expanded -->
         “China’s growing involvement in global peace and security has generated debate over its distinctive approach to peacebuilding and its expanding role as a peacemaker. Drawing on an original survey of 3,128 citizens and 47 elite interviews in Myanmar, this article examines how citizens perceive China’s peacebuilding and peacemaking roles and how these views shape its perceived effectiveness as a mediator. The analysis shows that key features of China’s peace building approach, its emphasis on development as a pathway to peace and its state-centric mode of engagement, strongly influence perceptions of China’s impartiality and leverage. Framing infrastructure and investment projects as developmental peace has led many citizens to view China as a vested actor focused on protecting its economic interests rather than resolving conflict, thereby undermining perceptions of impartiality. Moreover, as such investments create uneven benefits, they diminish China’s leverage over all conflict parties. China’s reliance on state institutions further reinforces perceptions of partiality, with many seeing it as aligned with the government. By foregrounding citizen perspectives, the article shows how China’s peacebuilding practices constrain its credibility and influence in peacemaking, challenging the assumption that peacebuilding and peacemaking are necessarily mutually reinforcing."
-      </p>
-    </details>
-  </li>
-
-  <li>
-    International Rivalry, Military Intervention, and Duration of Civil War (with Jungmin Han)
-    <em>(Under Review)</em>
-    <details>
-      <summary>Read more</summary>
-      <p>
-        <!-- Replace this text with whatever you want to show when expanded -->
-        “Civil wars often unfold amid complex networks of foreign involvement. Although prior research shows that two-sided interventions, where both governments and rebel groups receive external support, tend to prolong conflicts, it typically treats them as interactions between two unified camps, overlooking the distinct roles and linkages of individual intervening states. We argue that the structure of external competition, specifically, how intervening states are networked across opposing camps,  fundamentally shapes conflict duration. The analysis introduces the concept of a competitive intervener dyads (CID), defined as pairs of states supporting opposite sides in a civil war. As the number of these dyads increases, the density of cross-camp competition rises, complicating bargaining and reducing the likelihood of settlement. Moreover, when CIDs consist of interstate rivals, mutual mistrust and antagonism further undermine credible commitments and intensify informational asymmetries, making peace even less attainable. Using global data on civil wars from 1975 to 2017, combined with measures of external support and interstate rivalry, we estimate Cox proportional hazards models to test these propositions. The results show that a higher number of CIDs significantly decreases the tendency of civil war to terminate, and that rivalry dyads exert particularly strong prolonging effects. These findings highlight how the configuration of external actors, not merely their presence, profoundly shapes the trajectory of civil wars, bridging research on foreign intervention, bargaining dynamics, and international rivalry."
       </p>
     </details>
   </li>
