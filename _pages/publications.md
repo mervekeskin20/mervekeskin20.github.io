@@ -45,30 +45,6 @@ nav_order: 2
       </p>
     </details>
   </li>
-  
-  <li>
-    Forecasting Local Agreements in Civil War: A Machine Learning Perspective
-    <em>(Under Review)</em>
-    <details>
-      <summary>Read more</summary>
-      <p>
-        <!-- Replace this text with whatever you want to show when expanded -->
-        “While substantial scholarship examines national-level peace settlements in civil wars, the role of local peace agreements in shaping rebel-civilian interactions remains understudied. Given that we lack research identifying the functional form linking the balance of legitimacy and security at the local level, I employ flexible machine learning algorithms alongside time- series cross-validation that do not impose specific linear forms on the response functions. My theoretical framework naturally lends itself to a predictive approach. Using a novel dataset from the Central African Republic civil war, my approach conditions forecasts on varying feature sets. My results indicate that territorial contestation, distance to the capital, and proximity to economic resources strongly predict the formation of local peace agreements, suggesting that these agreements arise from deliberate calculations by armed groups and civilians. In addition, my analysis reveals that the regularized (log) logistic model performs more weakly than flexible machine learning models, indicating the presence of nonlinearities and contingent relationships among features. Ultimately, these findings underscore that local agreements are adaptive strategies that shape rebel-civilian dynamics in conflict zones, emphasizing the importance of subnational and predictive approaches in conflict management."
-      </p>
-    </details>
-  </li>
-
-  <li>
-    Between Peacebuilding and Peacemaking: China’s Evolving Role in Conflict Management (with Monalisa Adhikari)
-    <em>(Under Review)</em>
-    <details>
-      <summary>Read more</summary>
-      <p>
-        <!-- Replace this text with whatever you want to show when expanded -->
-        “China’s growing involvement in global peace and security has generated debate over its distinctive approach to peacebuilding and its expanding role as a peacemaker. Drawing on an original survey of 3,128 citizens and 47 elite interviews in Myanmar, this article examines how citizens perceive China’s peacebuilding and peacemaking roles and how these views shape its perceived effectiveness as a mediator. The analysis shows that key features of China’s peace building approach, its emphasis on development as a pathway to peace and its state-centric mode of engagement, strongly influence perceptions of China’s impartiality and leverage. Framing infrastructure and investment projects as developmental peace has led many citizens to view China as a vested actor focused on protecting its economic interests rather than resolving conflict, thereby undermining perceptions of impartiality. Moreover, as such investments create uneven benefits, they diminish China’s leverage over all conflict parties. China’s reliance on state institutions further reinforces perceptions of partiality, with many seeing it as aligned with the government. By foregrounding citizen perspectives, the article shows how China’s peacebuilding practices constrain its credibility and influence in peacemaking, challenging the assumption that peacebuilding and peacemaking are necessarily mutually reinforcing."
-      </p>
-    </details>
-  </li>
 
   <li>
     A Rebel with a Sanction: UN Sanctions against Non-state Armed Groups and Civil Conflict Duration (with Omer Zarpli)
@@ -94,22 +70,27 @@ nav_order: 2
   </li>
 
   <li>
-    Child Recruitment and Rebel Groups' Legitimacy Seeking in Civil Wars (with Isil Idrisoglu and Rebecca Cordell)
-  </li>
-
-  <li>
-    Linking Forecasting and Conflict Data: Peace Agreements and Violence Dynamics (with Michael P. Colaresi, Qing Chang, Laura Chelidonopoulos, Zhejun Qui)
-  </li>
-
-  <li>
-  Who Should Be Included in Peace Negotiations? Public Opinion from Myanmar (with Monalisa Adhikari)
-  </li>
-
-  <li> 
- Peace or Retribution? The Role of Warfare on Public Opinion Toward Peace in Colombia
+    Forecasting Local Agreements in Civil War: A Machine Learning Perspective
   </li>
 
   <li>
     Mitigating Violence Locally: The Effects of Local Agreements on Violence in Civil Wars
   </li>
+
+  <li>
+    Introducing an Actor-Aware Spatiotemporal Knowledge Graph to Understand and Forecast Political Violence (with Michael P. Colaresi, Qing Chang, Laura Chelidonopoulos, Zhejun Qui, João Correa)
+  </li>
+
+  <li>
+  Interpretable Survival Models using Penalized Hazards (with Max Goplerud and Kylie Smith)
+  </li>
+
+  <li>
+  Between Peacebuilding and Peacemaking: China’s Evolving Role in Conflict Management (with Monalisa Adhikari)
+  <li>
+    
+  <li> 
+ Peace or Retribution? The Role of Warfare on Public Opinion Toward Peace in Colombia
+  </li>
+
 </ol>
