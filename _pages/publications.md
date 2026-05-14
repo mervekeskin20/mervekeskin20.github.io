@@ -86,8 +86,12 @@ nav_order: 2
   </li>
 
   <li>
-  Between Peacebuilding and Peacemaking: China’s Evolving Role in Conflict Management (with Monalisa Adhikari)
+  Rhetorical and Behavioral Compliance with IHL by Rebel Groups (with Yu Bin Kim, Ilayda B. Onder, and Blair Welsh)
+  </li>
+   
   <li>
+  Between Peacebuilding and Peacemaking: China’s Evolving Role in Conflict Management (with Monalisa Adhikari)
+  </li>
     
   <li> 
  Peace or Retribution? The Role of Warfare on Public Opinion Toward Peace in Colombia
