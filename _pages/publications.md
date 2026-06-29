@@ -36,7 +36,7 @@ nav_order: 2
 <ol>
   <li>
     International Rivalry, Military Intervention, and Duration of Civil War (with Jungmin Han)
-    <em>(Invited to revise & resubmit at Security Studies)</em>  
+    <em>(Invited to revise & resubmit)</em>  
     <details>
       <summary>Read more</summary>
       <p>
@@ -48,7 +48,7 @@ nav_order: 2
 
   <li>
     When Sanctions Backfire: United Nations Sanctions on Non-State Armed Groups and Civil War Duration (with Omer Zarpli)
-    <em>(Invited to revise & resubmit at Journal of Peace Research)</em>
+    <em>(Invited to revise & resubmit)</em>
     <details>
       <summary>Read more</summary>
       <p>
