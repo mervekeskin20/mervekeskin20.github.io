@@ -47,7 +47,7 @@ nav_order: 2
   </li>
 
   <li>
-    A Rebel with a Sanction: UN Sanctions against Non-state Armed Groups and Civil Conflict Duration (with Omer Zarpli)
+    When Sanctions Backfire: United Nations Sanctions on Non-State Armed Groups and Civil War Duration (with Omer Zarpli)
     <em>(Invited to revise & resubmit at Journal of Peace Research)</em>
     <details>
       <summary>Read more</summary>
