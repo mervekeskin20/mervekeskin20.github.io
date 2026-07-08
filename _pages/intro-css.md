@@ -213,8 +213,8 @@ nav: false
 
 <a href="/teaching/" class="course-back">&larr; Back to teaching</a>
 
-<h1 class="course-title">Data science fundamentals</h1>
-<div class="course-draft-badge">Preview &mdash; subject to change</div>
+<h1 class="course-title">Intro to Data Science</h1>
+<div class="course-draft-badge"></div>
 
 <p class="course-desc">
   From visualizing trends over time to analyzing text data and mapping spatial patterns, the ability to transform complex, messy datasets into clear, actionable insights is essential for engaging with modern challenges. This course provides an introduction to the tools and techniques of data analysis and visualization, focusing on making social data comprehensible and accessible to diverse audiences.
