@@ -6,31 +6,343 @@ nav: true
 nav_order: 3
 ---
 
-My teaching interests focus on international relations, intrastate conflict, conflict resolution, peacemaking and peacekeeping, human rights, international security, international law, computational social science, quantitative text analysis, and the responsible use of AI in political science.
-							
-<b>Instructor<b>
+<style>
+.teaching-lede {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  max-width: 680px;
+  margin-bottom: 2.5rem;
+}
 
-Visualizing and Understanding Social Data (Computational Social Science), University of Pittsburgh, <em>Spring 2025<em>
+.teaching-section-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 1.25rem;
+  margin-top: 0;
+}
 
-International Law and Problems of World Order, University of Pittsburgh, <em>Summer 2023<em>
+.upcoming-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 3rem;
+}
 
-International Relations, University of Pittsburgh, <em>Summer 2022, Summer 2024<em>
-							
-<b>Guest Lecturer<b>
+.upcoming-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.375rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
 
-Civil Wars, ``Civilians in Civil Conflict”, University of Pittsburgh, <em>Fall 2023<em>
+.upcoming-card:hover {
+  border-color: #ccc;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  text-decoration: none;
+}
 
-Civil Wars, ``Participation and Recruitment", University of Pittsburgh, <em>Fall 2021<em> 
+.upcoming-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
 
-							
-<b>Teaching Fellow<b>
+.upcoming-card.spatial::before { background: #1D9E75; }
+.upcoming-card.ds::before      { background: #534AB7; }
 
-International Relations, University of Pittsburgh, <em>Fall 2020, Spring 2021<em>
+.upcoming-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 3px 9px;
+  border-radius: 4px;
+  margin-bottom: 0.875rem;
+}
 
-<b>Teaching Assistant<b>
+.upcoming-card.spatial .upcoming-badge {
+  background: #E1F5EE;
+  color: #085041;
+  border: 1px solid #9FE1CB;
+}
 
-Intro to International Relations, Koc University, <em>Summer 2018<em>
+.upcoming-card.ds .upcoming-badge {
+  background: #EEEDFE;
+  color: #3C3489;
+  border: 1px solid #CECBF6;
+}
 
-Terrorism, Insurgency, and World Politics, Koc University, <em>Spring 2018<em>
+.upcoming-card-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #111;
+  margin: 0 0 0.375rem 0;
+  line-height: 1.25;
+}
 
-Intro to Turkish Politics, Bogazici University, <em>Spring 2017<em>
+.upcoming-card-meta {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 0.875rem;
+}
+
+.upcoming-card-desc {
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.upcoming-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 1.125rem;
+}
+
+.upcoming-tag {
+  font-size: 11px;
+  color: #666;
+  background: #f5f5f5;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 2px 7px;
+}
+
+.upcoming-card-cta {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.upcoming-card.spatial .upcoming-card-cta { color: #0F6E56; }
+.upcoming-card.ds .upcoming-card-cta      { color: #534AB7; }
+
+.teaching-divider {
+  border: none;
+  border-top: 1px solid #e8e8e8;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.past-course {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.past-course:last-of-type { border-bottom: none; }
+
+.past-course-role {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.past-course-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+  margin: 0 0 0.5rem 0;
+  line-height: 1.35;
+}
+
+.past-course-desc {
+  font-size: 13.5px;
+  color: #555;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0;
+}
+
+.past-course-institution {
+  font-size: 12px;
+  color: #aaa;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 1.6;
+  padding-top: 2px;
+}
+
+.other-block { margin-bottom: 1.75rem; }
+
+.other-block-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  margin: 0 0 0.625rem 0;
+}
+
+.other-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.other-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  font-size: 13.5px;
+  color: #444;
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.other-list li:last-child { border-bottom: none; }
+
+.other-chip {
+  font-size: 11.5px;
+  color: #aaa;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+</style>
+
+<p class="teaching-lede">
+  My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
+</p>
+
+<p class="teaching-section-label">Upcoming courses</p>
+
+<div class="upcoming-grid">
+
+  <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
+    <div class="upcoming-badge">In development &mdash; </div>
+    <h3 class="upcoming-card-title">Spatial Analysis</h3>
+    <div class="upcoming-card-meta"> &middot; R &middot; sf &middot; tidycensus &middot; spatialreg</div>
+    <p class="upcoming-card-desc">
+      A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
+    </p>
+    <div class="upcoming-tags">
+      <span class="upcoming-tag">sf</span>
+      <span class="upcoming-tag">tmap</span>
+      <span class="upcoming-tag">Moran's I</span>
+      <span class="upcoming-tag">SLM / SEM</span>
+      <span class="upcoming-tag">spatiotemporal</span>
+      <span class="upcoming-tag">geoprivacy</span>
+    </div>
+    <div class="upcoming-card-cta">View course preview &rarr;</div>
+  </a>
+
+  <a href="/teaching/data-science-intro/" class="upcoming-card ds">
+    <div class="upcoming-badge">In development</div>
+    <h3 class="upcoming-card-title">Introduction to Data Science </h3>
+    <div class="upcoming-card-meta"> &middot; R &middot; tidy data &middot; stats &middot; communication</div>
+    <p class="upcoming-card-desc">
+      An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
+    </p>
+    <div class="upcoming-tags">
+      <span class="upcoming-tag">tidyverse</span>
+      <span class="upcoming-tag">ggplot2</span>
+      <span class="upcoming-tag">stringr</span>
+      <span class="upcoming-tag">sf</span>
+      <span class="upcoming-tag">NER</span>
+      <span class="upcoming-tag">Quarto</span>
+    </div>
+    <div class="upcoming-card-cta">View course preview &rarr;</div>
+  </a>
+
+</div>
+
+<hr class="teaching-divider">
+
+<p class="teaching-section-label">Courses taught</p>
+
+<div class="past-course">
+  <div>
+    <div class="past-course-role">Instructor &mdash; Spring 2025</div>
+    <h3 class="past-course-title">Visualizing and understanding social data (computational social science)</h3>
+    <p class="past-course-desc">
+      A hands-on introduction to data analysis and visualization for upper-level undergraduates, with no prior programming experience assumed. The course moves from R fundamentals and critical data literacy into applied projects: exploratory analysis, geospatial mapping, dataset integration, and reproducible reporting. Students leave able to transform messy social data into clear visualizations, maps, and written reports for diverse audiences.
+    </p>
+  </div>
+  <div class="past-course-institution">University of Pittsburgh</div>
+</div>
+
+<div class="past-course">
+  <div>
+    <div class="past-course-role">Instructor &mdash; Summer 2023</div>
+    <h3 class="past-course-title">International law and problems of world order</h3>
+    <p class="past-course-desc">
+      Foundational and contemporary perspectives on the global legal system and its role in world politics. The course moves from theories of compliance, commitment, and enforcement through applied areas including international courts, the laws of war, international criminal law, human rights, trade, environment, and migration. Students develop analytical reading and writing skills and participate in a simulation for practical understanding of legal regimes.
+    </p>
+  </div>
+  <div class="past-course-institution">University of Pittsburgh</div>
+</div>
+
+<div class="past-course">
+  <div>
+    <div class="past-course-role">Instructor &mdash; Summer 2022, Summer 2024</div>
+    <h3 class="past-course-title">International relations</h3>
+    <p class="past-course-desc">
+      An introduction to the major theories, concepts, and trends in world politics, with special attention to the post-World War II order. The course covers the main frameworks for explaining interstate behavior, then examines key actors &mdash; great powers, international organizations such as the UN and NATO, and violent non-state actors &mdash; before applying these tools to contemporary challenges: terrorism, nuclear weapons, trade, environmental degradation, and human rights.
+    </p>
+  </div>
+  <div class="past-course-institution">University of Pittsburgh</div>
+</div>
+
+<hr class="teaching-divider">
+
+<p class="teaching-section-label">Other teaching</p>
+
+<div class="other-block">
+  <p class="other-block-title">Guest lecturer</p>
+  <ul class="other-list">
+    <li>
+      <span>Civil wars &mdash; &ldquo;Civilians in civil conflict&rdquo;</span>
+      <span class="other-chip">University of Pittsburgh &middot; Fall 2023</span>
+    </li>
+    <li>
+      <span>Civil wars &mdash; &ldquo;Participation and recruitment&rdquo;</span>
+      <span class="other-chip">University of Pittsburgh &middot; Fall 2021</span>
+    </li>
+  </ul>
+</div>
+
+<div class="other-block">
+  <p class="other-block-title">Teaching fellow</p>
+  <ul class="other-list">
+    <li>
+      <span>International relations</span>
+      <span class="other-chip">University of Pittsburgh &middot; Fall 2020, Spring 2021</span>
+    </li>
+  </ul>
+</div>
+
+<div class="other-block">
+  <p class="other-block-title">Teaching assistant</p>
+  <ul class="other-list">
+    <li>
+      <span>Intro to international relations</span>
+      <span class="other-chip">Koç University &middot; Summer 2018</span>
+    </li>
+    <li>
+      <span>Terrorism, insurgency, and world politics</span>
+      <span class="other-chip">Koç University &middot; Spring 2018</span>
+    </li>
+    <li>
+      <span>Intro to Turkish politics</span>
+      <span class="other-chip">Boğaziçi University &middot; Spring 2017</span>
+    </li>
+  </ul>
+</div>
