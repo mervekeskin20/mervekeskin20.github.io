@@ -8,7 +8,6 @@ nav_order: 3
 
 <style>
 .teaching-lede {
-  font-size: 1rem;
   line-height: 1.8;
   color: var(--global-text-color);
   max-width: 680px;
@@ -16,7 +15,7 @@ nav_order: 3
 }
 
 .teaching-section-label {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.09em;
   text-transform: uppercase;
@@ -82,20 +81,18 @@ nav_order: 3
 }
 
 .upcoming-card-desc {
-  font-size: 0.85rem;
   color: var(--global-text-color-light);
   line-height: 1.65;
   margin-bottom: 0;
 }
 
 .upcoming-card-meta {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light);
   margin-bottom: 0.75rem;
 }
 
 .upcoming-card-desc-full {
-  font-size: 0.875rem;
   color: var(--global-text-color);
   line-height: 1.7;
   margin-bottom: 1rem;
@@ -109,7 +106,7 @@ nav_order: 3
 }
 
 .upcoming-tag {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: var(--global-text-color);
   background: var(--global-code-bg-color);
   border: 1px solid var(--global-divider-color);
@@ -118,7 +115,7 @@ nav_order: 3
 }
 
 .upcoming-card-cta {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
@@ -144,7 +141,7 @@ nav_order: 3
 .past-course:last-of-type { border-bottom: none; }
 
 .past-course-role {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -153,7 +150,6 @@ nav_order: 3
 }
 
 .past-course-title {
-  font-size: 0.95rem;
   font-weight: 600;
   color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
@@ -161,7 +157,6 @@ nav_order: 3
 }
 
 .past-course-desc {
-  font-size: 0.875rem;
   color: var(--global-text-color);
   line-height: 1.7;
   max-width: 520px;
@@ -169,7 +164,7 @@ nav_order: 3
 }
 
 .past-course-institution {
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light);
   text-align: right;
   white-space: nowrap;
@@ -180,7 +175,6 @@ nav_order: 3
 .other-block { margin-bottom: 1.75rem; }
 
 .other-block-title {
-  font-size: 0.85rem;
   font-weight: 600;
   color: var(--global-text-color);
   margin: 0 0 0.625rem 0;
@@ -197,7 +191,6 @@ nav_order: 3
   justify-content: space-between;
   align-items: baseline;
   gap: 1.5rem;
-  font-size: 0.875rem;
   color: var(--global-text-color);
   padding: 6px 0;
   border-bottom: 1px solid var(--global-divider-color);
@@ -206,23 +199,24 @@ nav_order: 3
 .other-list li:last-child { border-bottom: none; }
 
 .other-chip {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light);
   white-space: nowrap;
   flex-shrink: 0;
 }
 </style>
 
+
 <p class="teaching-lede">
   My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
 </p>
 
-<p class="teaching-section-label">Courses in preparation</p>
+<p class="teaching-section-label">Course Portfolio</p>
 
 <div class="upcoming-grid">
 
   <a href="/teaching/data-science-intro/" class="upcoming-card ds">
-    <h3 class="upcoming-card-title">Data Science Fundamentals</h3>
+    <h3 class="upcoming-card-title">Intro to Data Science</h3>
     <div class="upcoming-card-meta">R &middot; tidy data &middot; stats &middot; communication</div>
     <p class="upcoming-card-desc-full">
       An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
@@ -238,7 +232,7 @@ nav_order: 3
   </a>
 
   <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <h3 class="upcoming-card-title">Spatial Data Analysis</h3>
+    <h3 class="upcoming-card-title">Geospatial Data Science and Spatial Analysis</h3>
     <div class="upcoming-card-meta">R &middot; sf &middot; tidycensus &middot; spatialreg</div>
     <p class="upcoming-card-desc-full">
       A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
@@ -304,7 +298,7 @@ nav_order: 3
 
 <hr class="teaching-divider">
 
-<p class="teaching-section-label">Other teaching</p>
+<p class="teaching-section-label">Other Teaching</p>
 
 <div class="other-block">
   <p class="other-block-title">Guest Lecturer</p>
