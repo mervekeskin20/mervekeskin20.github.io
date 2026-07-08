@@ -266,12 +266,12 @@ nav_order: 3
 
 <hr class="teaching-divider">
 
-<p class="teaching-section-label">Courses taught</p>
+<p class="teaching-section-label">Courses Taught</p>
 
 <div class="past-course">
   <div>
     <div class="past-course-role">Instructor &mdash; Spring 2025</div>
-    <h3 class="past-course-title">Visualizing and understanding social data (computational social science)</h3>
+    <h3 class="past-course-title">Visualizing and Understanding Social Data (Computational Social Science)</h3>
     <p class="past-course-desc">
       A hands-on introduction to data analysis and visualization for upper-level undergraduates, with no prior programming experience assumed. The course moves from R fundamentals and critical data literacy into applied projects: exploratory analysis, geospatial mapping, dataset integration, and reproducible reporting. Students leave able to transform messy social data into clear visualizations, maps, and written reports for diverse audiences.
     </p>
@@ -282,7 +282,7 @@ nav_order: 3
 <div class="past-course">
   <div>
     <div class="past-course-role">Instructor &mdash; Summer 2023</div>
-    <h3 class="past-course-title">International law and problems of world order</h3>
+    <h3 class="past-course-title">International Law and Problems of World Order</h3>
     <p class="past-course-desc">
       Foundational and contemporary perspectives on the global legal system and its role in world politics. The course moves from theories of compliance, commitment, and enforcement through applied areas including international courts, the laws of war, international criminal law, human rights, trade, environment, and migration. Students develop analytical reading and writing skills and participate in a simulation for practical understanding of legal regimes.
     </p>
@@ -293,7 +293,7 @@ nav_order: 3
 <div class="past-course">
   <div>
     <div class="past-course-role">Instructor &mdash; Summer 2022, Summer 2024</div>
-    <h3 class="past-course-title">International relations</h3>
+    <h3 class="past-course-title">International Relations</h3>
     <p class="past-course-desc">
       An introduction to the major theories, concepts, and trends in world politics, with special attention to the post-World War II order. The course covers the main frameworks for explaining interstate behavior, then examines key actors, great powers, international organizations such as the UN and NATO, and violent non-state actors, before applying these tools to contemporary challenges: terrorism, nuclear weapons, trade, environmental degradation, and human rights.
     </p>
