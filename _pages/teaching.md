@@ -234,7 +234,7 @@ nav_order: 3
   </a>
 
   <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <h3 class="upcoming-card-title">Spatial Data Analysis</h3>
+    <h3 class="upcoming-card-title">Geospatial Data Science and Spatial Analysis</h3>
     <div class="upcoming-card-meta">R &middot; sf &middot; tidycensus &middot; spatialreg</div>
     <p class="upcoming-card-desc-full">
       A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
