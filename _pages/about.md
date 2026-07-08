@@ -30,8 +30,7 @@ profile:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! My name is Merve Keskin. I am a Postdoctoral Research Scholar at the School of Politics and Global Studies at Arizona State University.
-My research investigates peace and conflict, political violence, and human rights with a focus on three main areas: 
+Hello! My name is Merve Keskin. My research investigates peace and conflict, political violence, human rights, and the development and application of computational methods in the social sciences, with a focus on three main areas:
 1) the strategic decision-making of non-state armed groups, 
 2) the causes and impacts of local agreements between non-state armed groups and civilian communities in civil wars, and 
 3) the international dimensions of civil wars, including the role of sanctions and international interventions.
@@ -39,7 +38,7 @@ My work employs a combination of machine learning, predictive modeling, statisti
 
 In my [book project](https://mervekeskin20.github.io/books/), <em>Local Peace Agreements in Civil Wars: Legitimacy, Violence, and Conflict Trajectories</em>, I examine why non-state armed groups and communities negotiate local agreements during ongoing wars and how these settlements shape intrastate conflict dynamics. Drawing on an original dynamic network dataset from the Central African Republic, I develop a machine-learning prediction framework that shows how these agreements recalibrate power, affect patterns of civilian victimization, and reshape interactions among armed actors.
 
-I pursue related research on the political economy of conflict and security as part of my postdoctoral fellowship, where I am involved in the [GRIER](https://timothypeterson.org/nsf-funding-awarded/) project and apply large language models and machine learning to study international economic restrictions.
+I pursue related research on the political economy of conflict and security. As a Postdoctoral Research Scholar at the School of Politics and Global Studies at Arizona State University, I was involved in the [GRIER](https://timothypeterson.org/nsf-funding-awarded/) project, where I applied large language models and machine learning to study international economic restrictions.
 
 I co-organize the [Violence, Instability and Peace (VIP) Workshop](https://vip-workshop.github.io).
 
