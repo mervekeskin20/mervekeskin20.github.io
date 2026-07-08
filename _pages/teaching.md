@@ -27,7 +27,7 @@ nav_order: 3
 
 .upcoming-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
   margin-bottom: 3rem;
 }
@@ -50,6 +50,11 @@ nav_order: 3
   text-decoration: none;
 }
 
+.upcoming-card.no-link {
+  cursor: default;
+  pointer-events: none;
+}
+
 .upcoming-card::before {
   content: '';
   position: absolute;
@@ -59,47 +64,33 @@ nav_order: 3
   height: 3px;
 }
 
-.upcoming-card.spatial::before { background: #1D9E75; }
-.upcoming-card.ds::before      { background: #534AB7; }
-
-.upcoming-badge {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  padding: 3px 9px;
-  border-radius: 4px;
-  margin-bottom: 0.875rem;
-}
-
-.upcoming-card.spatial .upcoming-badge {
-  background: #E1F5EE;
-  color: #085041;
-  border: 1px solid #9FE1CB;
-}
-
-.upcoming-card.ds .upcoming-badge {
-  background: #EEEDFE;
-  color: #3C3489;
-  border: 1px solid #CECBF6;
-}
+.upcoming-card.spatial::before  { background: #1D9E75; }
+.upcoming-card.ds::before       { background: #534AB7; }
+.upcoming-card.dataviz::before  { background: #D85A30; }
+.upcoming-card.forecast::before { background: #BA7517; }
 
 .upcoming-card-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #111;
-  margin: 0 0 0.375rem 0;
+  margin: 0 0 0.5rem 0;
   line-height: 1.25;
+}
+
+.upcoming-card-desc {
+  font-size: 13px;
+  color: #888;
+  line-height: 1.65;
+  margin-bottom: 0;
 }
 
 .upcoming-card-meta {
   font-size: 12px;
   color: #aaa;
-  margin-bottom: 0.875rem;
+  margin-bottom: 0.75rem;
 }
 
-.upcoming-card-desc {
+.upcoming-card-desc-full {
   font-size: 13.5px;
   color: #555;
   line-height: 1.7;
@@ -128,8 +119,8 @@ nav_order: 3
   letter-spacing: 0.04em;
 }
 
-.upcoming-card.spatial .upcoming-card-cta { color: #0F6E56; }
-.upcoming-card.ds .upcoming-card-cta      { color: #534AB7; }
+.upcoming-card.spatial .upcoming-card-cta  { color: #0F6E56; }
+.upcoming-card.ds .upcoming-card-cta       { color: #534AB7; }
 
 .teaching-divider {
   border: none;
@@ -222,15 +213,35 @@ nav_order: 3
   My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
 </p>
 
-<p class="teaching-section-label">Course Portfolio</p>
+<p class="teaching-section-label">Courses in preparation</p>
 
 <div class="upcoming-grid">
 
+  <a href="/teaching/data-science-intro/" class="upcoming-card ds">
+    <h3 class="upcoming-card-title">Data Science Fundamentals</h3>
+    <div class="upcoming-card-meta">R &middot; tidy data &middot; stats &middot; communication</div>
+    <p class="upcoming-card-desc-full">
+      An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
+    </p>
+    <div class="upcoming-tags">
+      <span class="upcoming-tag">tidyverse</span>
+      <span class="upcoming-tag">ggplot2</span>
+      <span class="upcoming-tag">stringr</span>
+      <span class="upcoming-tag">NER</span>
+      <span class="upcoming-tag">Quarto</span>
+    </div>
+    <div class="upcoming-card-cta">View course overview &rarr;</div>
+  </a>
+
+  <div class="upcoming-card dataviz no-link">
+    <h3 class="upcoming-card-title">Data Visualization</h3>
+    <p class="upcoming-card-desc">Course overview coming soon.</p>
+  </div>
+
   <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <div class="upcoming-badge"> &mdash; </div>
-    <h3 class="upcoming-card-title">Spatial Analysis</h3>
-    <div class="upcoming-card-meta"> &middot; R &middot; sf &middot; tidycensus &middot; spatialreg</div>
-    <p class="upcoming-card-desc">
+    <h3 class="upcoming-card-title">Spatial Data Analysis</h3>
+    <div class="upcoming-card-meta">R &middot; sf &middot; tidycensus &middot; spatialreg</div>
+    <p class="upcoming-card-desc-full">
       A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
     </p>
     <div class="upcoming-tags">
@@ -238,35 +249,21 @@ nav_order: 3
       <span class="upcoming-tag">tmap</span>
       <span class="upcoming-tag">Moran's I</span>
       <span class="upcoming-tag">SLM / SEM</span>
-      <span class="upcoming-tag">spatiotemporal</span>
       <span class="upcoming-tag">geoprivacy</span>
     </div>
-    <div class="upcoming-card-cta">View course preview &rarr;</div>
+    <div class="upcoming-card-cta">View course overview &rarr;</div>
   </a>
 
-  <a href="/teaching/data-science-intro/" class="upcoming-card ds">
-    <div class="upcoming-badge"></div>
-    <h3 class="upcoming-card-title">Introduction to Data Science </h3>
-    <div class="upcoming-card-meta"> &middot; R &middot; tidy data &middot; stats &middot; communication</div>
-    <p class="upcoming-card-desc">
-      An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
-    </p>
-    <div class="upcoming-tags">
-      <span class="upcoming-tag">tidyverse</span>
-      <span class="upcoming-tag">ggplot2</span>
-      <span class="upcoming-tag">stringr</span>
-      <span class="upcoming-tag">sf</span>
-      <span class="upcoming-tag">NER</span>
-      <span class="upcoming-tag">Quarto</span>
-    </div>
-    <div class="upcoming-card-cta">View course preview &rarr;</div>
-  </a>
+  <div class="upcoming-card forecast no-link">
+    <h3 class="upcoming-card-title">Predictive Modeling and Forecasting</h3>
+    <p class="upcoming-card-desc">Course overview coming soon.</p>
+  </div>
 
 </div>
 
 <hr class="teaching-divider">
 
-<p class="teaching-section-label">Courses Taught</p>
+<p class="teaching-section-label">Courses taught</p>
 
 <div class="past-course">
   <div>
@@ -295,7 +292,7 @@ nav_order: 3
     <div class="past-course-role">Instructor &mdash; Summer 2022, Summer 2024</div>
     <h3 class="past-course-title">International Relations</h3>
     <p class="past-course-desc">
-      An introduction to the major theories, concepts, and trends in world politics, with special attention to the post-World War II order. The course covers the main frameworks for explaining interstate behavior, then examines key actors, great powers, international organizations such as the UN and NATO, and violent non-state actors, before applying these tools to contemporary challenges: terrorism, nuclear weapons, trade, environmental degradation, and human rights.
+      An introduction to the major theories, concepts, and trends in world politics, with special attention to the post-World War II order. The course covers the main frameworks for explaining interstate behavior, then examines key actors &mdash; great powers, international organizations such as the UN and NATO, and violent non-state actors &mdash; before applying these tools to contemporary challenges: terrorism, nuclear weapons, trade, environmental degradation, and human rights.
     </p>
   </div>
   <div class="past-course-institution">University of Pittsburgh</div>
@@ -303,17 +300,17 @@ nav_order: 3
 
 <hr class="teaching-divider">
 
-<p class="teaching-section-label">Other Teaching</p>
+<p class="teaching-section-label">Other teaching</p>
 
 <div class="other-block">
   <p class="other-block-title">Guest Lecturer</p>
   <ul class="other-list">
     <li>
-      <span>Civil wars &mdash; &ldquo;Civilians in Civil Conflicts&rdquo;</span>
+      <span>Civil Wars &mdash; &ldquo;Civilians in Civil Conflict&rdquo;</span>
       <span class="other-chip">University of Pittsburgh &middot; Fall 2023</span>
     </li>
     <li>
-      <span>Civil wars &mdash; &ldquo;Participation and Recruitment&rdquo;</span>
+      <span>Civil Wars &mdash; &ldquo;Participation and Recruitment&rdquo;</span>
       <span class="other-chip">University of Pittsburgh &middot; Fall 2021</span>
     </li>
   </ul>
