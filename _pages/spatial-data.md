@@ -213,8 +213,8 @@ nav: false
 
 <a href="/teaching/" class="course-back">&larr; Back to teaching</a>
 
-<h1 class="course-title">Spatial data analysis</h1>
-<div class="course-draft-badge">Preview &mdash; subject to change</div>
+<h1 class="course-title">Geospatial Data and Spatial Analysis</h1>
+<div class="course-draft-badge"></div>
 
 <p class="course-desc">
   From mapping neighborhood inequality to modeling how geography shapes health outcomes, the ability to work with spatial data has become an essential skill for researchers, analysts, and practitioners across the social sciences. This course provides a rigorous applied introduction to spatial data analysis, focusing on acquiring, wrangling, visualizing, and analyzing geographically referenced data.
