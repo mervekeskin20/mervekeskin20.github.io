@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spatial Data Analysis
+title: Geospatial Data Science and Spatial Analysis
 permalink: /teaching/spatial-analysis/
 nav: false
 ---
@@ -213,7 +213,7 @@ nav: false
 
 <a href="/teaching/" class="course-back">&larr; Back to teaching</a>
 
-<h1 class="course-title">Geospatial Data and Spatial Analysis</h1>
+<h1 class="course-title">Geospatial Data Science and Spatial Analysis</h1>
 <div class="course-draft-badge"></div>
 
 <p class="course-desc">
@@ -260,7 +260,7 @@ nav: false
   <p class="cluster-desc">Getting fluent with how spatial data is structured, stored, and referenced &mdash; the building blocks for everything that follows.</p>
   <div class="cluster-items">
     <ul>
-      <li>Vector vs. raster data; points, lines, and polygons; simple features (sf)</li>
+      <li>Vector vs. raster data; points, lines, and polygons; simple features</li>
       <li>Coordinate reference systems, projections, and CRS transformations</li>
       <li>Reading and writing shapefiles, GeoJSON, and GeoPackage</li>
       <li>Importing Census and administrative data with tidycensus</li>
@@ -290,8 +290,7 @@ nav: false
       <li>Thematic mapping with tmap and ggplot2; choropleth maps and color theory</li>
       <li>Map design principles; interactive mapping with OpenStreetMap</li>
       <li>Buffers, spatial joins, intersections, unions, and clipping</li>
-      <li>MAUP (Modifiable Areal Unit Problem) and areal interpolation</li>
-      <li>ACS, decennial, PUMS, and tigris in depth; data quality and missing data strategies</li>
+      <li>MAUP and areal interpolation</li>
       <li>Communicating spatial findings to non-specialist audiences</li>
     </ul>
   </div>
@@ -316,12 +315,12 @@ nav: false
   <div class="cluster-items">
     <ul>
       <li>Spatial weights as neighborhood definitions; Moran's I statistic and scatterplot</li>
-      <li>LISA maps: reading cluster types (HH, LL, HL, LH) substantively</li>
-      <li>Adding spatial features to OLS; residual maps as a diagnostic tool</li>
-      <li>Spatial cross-validation: why random splits fail with spatial data</li>
-      <li>SLM vs. SEM: choosing based on research question; running models with spatialreg</li>
+      <li>LISA maps: reading cluster types substantively</li>
+      <li>Adding spatial features to OLS</li>
+      <li>Spatial cross-validation</li>
+      <li>SLM vs. SEM; running models with spatialreg</li>
       <li>Likelihood-ratio tests, AIC, and Lagrange multiplier specification tests</li>
-      <li>Sensitivity to the spatial weights matrix; reporting robustness honestly</li>
+      <li>Sensitivity to the spatial weights matrix; reporting robustness</li>
     </ul>
   </div>
   <div class="cluster-tags">
@@ -346,11 +345,9 @@ nav: false
     <ul>
       <li>Spatial panel data structures; visualizing change over space and time</li>
       <li>Fixed vs. random effects in spatial panel models</li>
-      <li>Quarto for spatial reports; reproducible workflows</li>
       <li>Geographic re-identification and why location is quasi-identifying</li>
       <li>Spatial aggregation, k-anonymity, and geomasking as disclosure control</li>
-      <li>Differential privacy in the 2020 US Census; the accuracy&ndash;privacy tradeoff</li>
-      <li>Redlining, place-based algorithmic bias, and policy implications</li>
+      <li>Place-based algorithmic bias, and policy implications</li>
     </ul>
   </div>
   <div class="cluster-tags">
@@ -363,5 +360,4 @@ nav: false
 </div>
 
 <p class="course-footer">
-  This is a course preview shared for general reference. Topics, readings, and dates are subject to change once the course is finalized. The official syllabus will be distributed on the first day of class.
-</p>
+  </p>
