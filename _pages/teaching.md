@@ -27,7 +27,7 @@ nav_order: 3
 
 .upcoming-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   margin-bottom: 3rem;
 }
@@ -213,12 +213,12 @@ nav_order: 3
   My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
 </p>
 
-<p class="teaching-section-label">Courses in preparation</p>
+<p class="teaching-section-label">Course Portfolio</p>
 
 <div class="upcoming-grid">
 
   <a href="/teaching/data-science-intro/" class="upcoming-card ds">
-    <h3 class="upcoming-card-title">Data Science Fundamentals</h3>
+    <h3 class="upcoming-card-title">Intro to Data Science</h3>
     <div class="upcoming-card-meta">R &middot; tidy data &middot; stats &middot; communication</div>
     <p class="upcoming-card-desc-full">
       An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
@@ -237,22 +237,6 @@ nav_order: 3
     <h3 class="upcoming-card-title">Data Visualization</h3>
     <p class="upcoming-card-desc">Course overview coming soon.</p>
   </div>
-
-  <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <h3 class="upcoming-card-title">Spatial Data Analysis</h3>
-    <div class="upcoming-card-meta">R &middot; sf &middot; tidycensus &middot; spatialreg</div>
-    <p class="upcoming-card-desc-full">
-      A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
-    </p>
-    <div class="upcoming-tags">
-      <span class="upcoming-tag">sf</span>
-      <span class="upcoming-tag">tmap</span>
-      <span class="upcoming-tag">Moran's I</span>
-      <span class="upcoming-tag">SLM / SEM</span>
-      <span class="upcoming-tag">geoprivacy</span>
-    </div>
-    <div class="upcoming-card-cta">View course overview &rarr;</div>
-  </a>
 
   <div class="upcoming-card forecast no-link">
     <h3 class="upcoming-card-title">Predictive Modeling and Forecasting</h3>
