@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Science Fundamentals
+title: Intro to Data Science 
 permalink: /teaching/data-science-intro/
 nav: false
 ---
@@ -258,15 +258,6 @@ nav: false
     <span class="cluster-title">R fundamentals</span>
   </div>
   <p class="cluster-desc">Building a working foundation in R &mdash; from the environment and basic syntax to data structures and programmatic thinking.</p>
-  <div class="cluster-items">
-    <ul>
-      <li>RStudio, R Markdown, packages, and help documentation</li>
-      <li>Basic syntax, variables, functions, and data types</li>
-      <li>Vectors, lists, factors, matrices, and data frames</li>
-      <li>Subsetting formats, operators, boolean conditionals, and sub-assignments</li>
-      <li>Conditional flow and writing functions; iterations with purrr and for loops</li>
-    </ul>
-  </div>
   <div class="cluster-tags">
     <span class="cluster-tag">R Markdown</span>
     <span class="cluster-tag">data types</span>
@@ -284,16 +275,6 @@ nav: false
     <span class="cluster-title">Data wrangling and visualization</span>
   </div>
   <p class="cluster-desc">Getting real-world data into shape and turning it into clear, publication-ready graphics.</p>
-  <div class="cluster-items">
-    <ul>
-      <li>Tidy data principles; importing, exporting, and exploratory data analysis</li>
-      <li>Subsetting, summarizing, and calculations across groups with dplyr</li>
-      <li>Reshaping data with tidyr: pivoting, separating, and uniting columns</li>
-      <li>Relational data, keys, joins, and handling missing values</li>
-      <li>Grammar of graphics; chart types, color schemes, and labels with ggplot2</li>
-      <li>Regular expressions, pattern matching, and text extraction with stringr</li>
-    </ul>
-  </div>
   <div class="cluster-tags">
     <span class="cluster-tag">dplyr</span>
     <span class="cluster-tag">tidyr</span>
@@ -312,17 +293,7 @@ nav: false
     <span class="cluster-title">Text and spatial analysis</span>
   </div>
   <p class="cluster-desc">Extracting structure from unstructured text and working with geographically referenced data.</p>
-  <div class="cluster-items">
-    <ul>
-      <li>Named entity recognition (NER): extracting people, locations, and organizations</li>
-      <li>Practical NER with spacyr and cleanNLP; integrating outputs into data frames</li>
-      <li>Importing and managing spatial data; coordinate reference systems</li>
-      <li>Working with spatial objects using sf</li>
-      <li>Static mapping with ggplot2, ggmap, and tmap; interactive mapping with leaflet</li>
-      <li>Spatial operations: joins, intersections, and choropleth maps</li>
-    </ul>
-  </div>
-  <div class="cluster-tags">
+   <div class="cluster-tags">
     <span class="cluster-tag">NER</span>
     <span class="cluster-tag">spacyr</span>
     <span class="cluster-tag">sf</span>
@@ -340,15 +311,7 @@ nav: false
     <span class="cluster-title">Integration and communication</span>
   </div>
   <p class="cluster-desc">Combining tools into a single cohesive workflow and communicating findings to diverse audiences.</p>
-  <div class="cluster-items">
-    <ul>
-      <li>Interactive visualization tools for web and presentation contexts</li>
-      <li>Combining data wrangling, NER, and spatial analysis into a unified pipeline</li>
-      <li>Reproducible reporting with R Markdown: structure, code, and narrative together</li>
-      <li>Communicating data findings clearly to non-technical audiences</li>
-    </ul>
-  </div>
-  <div class="cluster-tags">
+   <div class="cluster-tags">
     <span class="cluster-tag">interactive viz</span>
     <span class="cluster-tag">R Markdown</span>
     <span class="cluster-tag">reproducibility</span>
@@ -357,5 +320,4 @@ nav: false
 </div>
 
 <p class="course-footer">
-  This is a course preview shared for general reference. Topics, readings, and dates are subject to change once the course is finalized. The official syllabus will be distributed on the first day of class.
-</p>
+ </p>
