@@ -8,19 +8,19 @@ nav_order: 3
 
 <style>
 .teaching-lede {
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.8;
-  color: #555;
+  color: var(--global-text-color);
   max-width: 680px;
   margin-bottom: 2.5rem;
 }
 
 .teaching-section-label {
-  font-size: 11px;
+  font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #999;
+  color: var(--global-text-color-light);
   margin-bottom: 1.25rem;
   margin-top: 0;
 }
@@ -32,9 +32,13 @@ nav_order: 3
   margin-bottom: 3rem;
 }
 
+@media (max-width: 600px) {
+  .upcoming-grid { grid-template-columns: 1fr; }
+}
+
 .upcoming-card {
-  background: #fff;
-  border: 1px solid #e5e5e5;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
   border-radius: 12px;
   padding: 1.375rem 1.5rem;
   position: relative;
@@ -45,7 +49,7 @@ nav_order: 3
 }
 
 .upcoming-card:hover {
-  border-color: #ccc;
+  border-color: var(--global-text-color-light);
   box-shadow: 0 2px 12px rgba(0,0,0,0.07);
   text-decoration: none;
 }
@@ -70,29 +74,29 @@ nav_order: 3
 .upcoming-card.forecast::before { background: #BA7517; }
 
 .upcoming-card-title {
-  font-size: 18px;
-  font-weight: 400;
-  color: #111;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
   line-height: 1.25;
 }
 
 .upcoming-card-desc {
-  font-size: 13px;
-  color: #888;
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
   line-height: 1.65;
   margin-bottom: 0;
 }
 
 .upcoming-card-meta {
-  font-size: 12px;
-  color: #aaa;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
   margin-bottom: 0.75rem;
 }
 
 .upcoming-card-desc-full {
-  font-size: 13.5px;
-  color: #555;
+  font-size: 0.875rem;
+  color: var(--global-text-color);
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -105,16 +109,16 @@ nav_order: 3
 }
 
 .upcoming-tag {
-  font-size: 11px;
-  color: #666;
-  background: #f5f5f5;
-  border: 1px solid #e5e5e5;
+  font-size: 0.7rem;
+  color: var(--global-text-color);
+  background: var(--global-code-bg-color);
+  border: 1px solid var(--global-divider-color);
   border-radius: 4px;
   padding: 2px 7px;
 }
 
 .upcoming-card-cta {
-  font-size: 12px;
+  font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
@@ -124,7 +128,7 @@ nav_order: 3
 
 .teaching-divider {
   border: none;
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid var(--global-divider-color);
   margin: 0.5rem 0 2rem 0;
 }
 
@@ -134,39 +138,39 @@ nav_order: 3
   gap: 1.5rem;
   align-items: start;
   padding: 1.25rem 0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .past-course:last-of-type { border-bottom: none; }
 
 .past-course-role {
-  font-size: 11px;
+  font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #aaa;
+  color: var(--global-text-color-light);
   margin-bottom: 5px;
 }
 
 .past-course-title {
-  font-size: 15px;
+  font-size: 0.95rem;
   font-weight: 600;
-  color: #111;
+  color: var(--global-text-color);
   margin: 0 0 0.5rem 0;
   line-height: 1.35;
 }
 
 .past-course-desc {
-  font-size: 13.5px;
-  color: #555;
+  font-size: 0.875rem;
+  color: var(--global-text-color);
   line-height: 1.7;
   max-width: 520px;
   margin: 0;
 }
 
 .past-course-institution {
-  font-size: 12px;
-  color: #aaa;
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
   text-align: right;
   white-space: nowrap;
   line-height: 1.6;
@@ -176,9 +180,9 @@ nav_order: 3
 .other-block { margin-bottom: 1.75rem; }
 
 .other-block-title {
-  font-size: 13px;
+  font-size: 0.85rem;
   font-weight: 600;
-  color: #666;
+  color: var(--global-text-color);
   margin: 0 0 0.625rem 0;
 }
 
@@ -193,17 +197,17 @@ nav_order: 3
   justify-content: space-between;
   align-items: baseline;
   gap: 1.5rem;
-  font-size: 13.5px;
-  color: #444;
+  font-size: 0.875rem;
+  color: var(--global-text-color);
   padding: 6px 0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 .other-list li:last-child { border-bottom: none; }
 
 .other-chip {
-  font-size: 11.5px;
-  color: #aaa;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -213,12 +217,12 @@ nav_order: 3
   My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
 </p>
 
-<p class="teaching-section-label">Course Portfolio</p>
+<p class="teaching-section-label">Courses in preparation</p>
 
 <div class="upcoming-grid">
 
   <a href="/teaching/data-science-intro/" class="upcoming-card ds">
-    <h3 class="upcoming-card-title">Intro to Data Science</h3>
+    <h3 class="upcoming-card-title">Data Science Fundamentals</h3>
     <div class="upcoming-card-meta">R &middot; tidy data &middot; stats &middot; communication</div>
     <p class="upcoming-card-desc-full">
       An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
@@ -234,7 +238,7 @@ nav_order: 3
   </a>
 
   <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <h3 class="upcoming-card-title">Geospatial Data Science and Spatial Analysis</h3>
+    <h3 class="upcoming-card-title">Spatial Data Analysis</h3>
     <div class="upcoming-card-meta">R &middot; sf &middot; tidycensus &middot; spatialreg</div>
     <p class="upcoming-card-desc-full">
       A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
