@@ -222,12 +222,12 @@ nav_order: 3
   My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
 </p>
 
-<p class="teaching-section-label">Upcoming courses</p>
+<p class="teaching-section-label">Course Portfolio</p>
 
 <div class="upcoming-grid">
 
   <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <div class="upcoming-badge">In development &mdash; </div>
+    <div class="upcoming-badge"> &mdash; </div>
     <h3 class="upcoming-card-title">Spatial Analysis</h3>
     <div class="upcoming-card-meta"> &middot; R &middot; sf &middot; tidycensus &middot; spatialreg</div>
     <p class="upcoming-card-desc">
@@ -245,7 +245,7 @@ nav_order: 3
   </a>
 
   <a href="/teaching/data-science-intro/" class="upcoming-card ds">
-    <div class="upcoming-badge">In development</div>
+    <div class="upcoming-badge"></div>
     <h3 class="upcoming-card-title">Introduction to Data Science </h3>
     <div class="upcoming-card-meta"> &middot; R &middot; tidy data &middot; stats &middot; communication</div>
     <p class="upcoming-card-desc">
@@ -295,7 +295,7 @@ nav_order: 3
     <div class="past-course-role">Instructor &mdash; Summer 2022, Summer 2024</div>
     <h3 class="past-course-title">International relations</h3>
     <p class="past-course-desc">
-      An introduction to the major theories, concepts, and trends in world politics, with special attention to the post-World War II order. The course covers the main frameworks for explaining interstate behavior, then examines key actors &mdash; great powers, international organizations such as the UN and NATO, and violent non-state actors &mdash; before applying these tools to contemporary challenges: terrorism, nuclear weapons, trade, environmental degradation, and human rights.
+      An introduction to the major theories, concepts, and trends in world politics, with special attention to the post-World War II order. The course covers the main frameworks for explaining interstate behavior, then examines key actors, great powers, international organizations such as the UN and NATO, and violent non-state actors, before applying these tools to contemporary challenges: terrorism, nuclear weapons, trade, environmental degradation, and human rights.
     </p>
   </div>
   <div class="past-course-institution">University of Pittsburgh</div>
@@ -303,45 +303,45 @@ nav_order: 3
 
 <hr class="teaching-divider">
 
-<p class="teaching-section-label">Other teaching</p>
+<p class="teaching-section-label">Other Teaching</p>
 
 <div class="other-block">
-  <p class="other-block-title">Guest lecturer</p>
+  <p class="other-block-title">Guest Lecturer</p>
   <ul class="other-list">
     <li>
-      <span>Civil wars &mdash; &ldquo;Civilians in civil conflict&rdquo;</span>
+      <span>Civil wars &mdash; &ldquo;Civilians in Civil Conflicts&rdquo;</span>
       <span class="other-chip">University of Pittsburgh &middot; Fall 2023</span>
     </li>
     <li>
-      <span>Civil wars &mdash; &ldquo;Participation and recruitment&rdquo;</span>
+      <span>Civil wars &mdash; &ldquo;Participation and Recruitment&rdquo;</span>
       <span class="other-chip">University of Pittsburgh &middot; Fall 2021</span>
     </li>
   </ul>
 </div>
 
 <div class="other-block">
-  <p class="other-block-title">Teaching fellow</p>
+  <p class="other-block-title">Teaching Fellow</p>
   <ul class="other-list">
     <li>
-      <span>International relations</span>
+      <span>International Relations</span>
       <span class="other-chip">University of Pittsburgh &middot; Fall 2020, Spring 2021</span>
     </li>
   </ul>
 </div>
 
 <div class="other-block">
-  <p class="other-block-title">Teaching assistant</p>
+  <p class="other-block-title">Teaching Assistant</p>
   <ul class="other-list">
     <li>
-      <span>Intro to international relations</span>
+      <span>Intro to International Relations</span>
       <span class="other-chip">Koç University &middot; Summer 2018</span>
     </li>
     <li>
-      <span>Terrorism, insurgency, and world politics</span>
+      <span>Terrorism, Insurgency, and World Politics</span>
       <span class="other-chip">Koç University &middot; Spring 2018</span>
     </li>
     <li>
-      <span>Intro to Turkish politics</span>
+      <span>Intro to Turkish Politics</span>
       <span class="other-chip">Boğaziçi University &middot; Spring 2017</span>
     </li>
   </ul>
