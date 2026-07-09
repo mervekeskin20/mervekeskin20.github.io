@@ -213,12 +213,12 @@ nav_order: 3
   My teaching spans computational social science, spatial data analysis, text-as-data, the responsible use of AI in political science, international relations, conflict resolution, peacemaking, human rights, and international security.
 </p>
 
-<p class="teaching-section-label">Courses in preparation</p>
+<p class="teaching-section-label">Course Portfolio</p>
 
 <div class="upcoming-grid">
 
   <a href="/teaching/data-science-intro/" class="upcoming-card ds">
-    <h3 class="upcoming-card-title">Data Science Fundamentals</h3>
+    <h3 class="upcoming-card-title">Intro to Data Science</h3>
     <div class="upcoming-card-meta">R &middot; tidy data &middot; stats &middot; communication</div>
     <p class="upcoming-card-desc-full">
       An introduction to data analysis and communication in R, built around the tidyverse. From tidy principles and statistical summaries through text analysis, geospatial data, and reproducible reporting for public and policy audiences.
@@ -234,7 +234,7 @@ nav_order: 3
   </a>
 
   <a href="/teaching/spatial-analysis/" class="upcoming-card spatial">
-    <h3 class="upcoming-card-title">Spatial Data Analysis</h3>
+    <h3 class="upcoming-card-title">Geospatial Data Science and Spatial Analysis</h3>
     <div class="upcoming-card-meta">R &middot; sf &middot; tidycensus &middot; spatialreg</div>
     <p class="upcoming-card-desc-full">
       A rigorous applied introduction to spatial data science for students with R foundations. Covers data structures, geoprocessing, cartography, spatial autocorrelation, predictive modeling, spatial regression, and the ethics of working with geographic data.
