@@ -346,7 +346,7 @@ nav: false
       <li>Spatial panel data structures; visualizing change over space and time</li>
       <li>Fixed vs. random effects in spatial panel models</li>
       <li>Geographic re-identification and why location is quasi-identifying</li>
-      <li>Spatial aggregation, k-anonymity, and geomasking as disclosure control</li>
+      <li>Spatial aggregation; geomasking as disclosure control</li>
       <li>Place-based algorithmic bias, and policy implications</li>
     </ul>
   </div>
